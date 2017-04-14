@@ -1,0 +1,145 @@
+@charset UTF-8;
+
+a:link{
+	color:black;
+}
+a:visited{
+	color:black;
+}
+a{
+	text-decoration:none;
+}
+article a:hover{
+	color:#ffa3ff;
+}
+
+body{
+	margin:0;
+	background:#e0ffc1;
+	font-family: "YuGothic","Yu Gothic","Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+}
+
+article{
+	margin:50px 50px;
+	margin-left:150px;
+}
+
+#headarea{
+	margin:0;
+}
+
+#footer{
+	margin:0;
+}
+
+#undernav{
+	margin:0;
+	padding:0;
+	
+}
+
+#headarimage{
+	background:url('./../img/header.png') 0 0 no-repeat;
+	background-size:cover;
+	background-position: center center; 
+	height:170px;
+	line-height:170px;
+	text-align:center;
+	font-size:300%;
+}
+
+#headarea ul{
+	*zoom:1;
+	display:block;
+	list-style-type:none;
+	width:960px;
+	margin:0 auto 0;
+	padding:0;
+}
+
+#headarea li{
+	position:relative;
+	width:20%;
+	float:left;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+#headarea li a{
+	display:block;
+	margin:0;
+	padding:15px 0 11px;
+	background:#ffa3ff;
+	line-height:1;
+	text-decoration:none;
+}
+
+#headarea li a:hover{
+	background:#ff99ff;
+}
+
+#undernav{
+	height:42px;
+	background: #fad8ff; /* Old browsers */
+	background: -moz-linear-gradient(left, #fad8ff 0%, #e500ff 35%, #e500ff 65%, #fad8ff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #fad8ff 0%,#e500ff 35%,#e500ff 65%,#fad8ff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #fad8ff 0%,#e500ff 35%,#e500ff 65%,#fad8ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fad8ff', endColorstr='#fad8ff',GradientType=1 );
+}
+
+#footer img{
+	height:30px;
+	position:relative;
+	bottom:-3px;
+}
+
+#footer div{
+	height:42px;
+	width:192px;
+	background:#ffa3ff;
+	float:left;	
+	text-align:center;
+	line-height:42px;
+}
+
+#footer div:hover{
+	background:#ff99ff;
+}
+
+#foottotop{
+	
+}
+
+table{
+	border-collapse:collapse; 
+	font-size:300%;
+}
+
+th{
+	border-bottom:1px #84ff84 solid;
+	width:350px;
+}
+
+td{
+	border-bottom:1px #84ff84 solid;
+}
+
+h1{
+	font-size:270%;
+	margin:50px;
+	
+}
+
+p{
+	font-size:200%;
+	
+}
+
+#tatie{
+	width:500px;
+	height:600px;
+	position:fixed;
+	position: absolute;
+	right:0px;
+}

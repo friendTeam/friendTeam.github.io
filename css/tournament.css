@@ -1,0 +1,9 @@
+@charset UTF-8;
+table{
+	font-size:150%;
+	white-space:nowrap;
+}
+th{
+	width:500px;
+	text-align:left;
+}

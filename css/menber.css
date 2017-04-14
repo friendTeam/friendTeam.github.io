@@ -1,0 +1,66 @@
+@charset UTF-8;
+
+table{
+	font-size:100%;
+}
+th{
+	width:60px;
+}
+td{
+	width:133px;
+	text-align:center;
+}
+.menber{
+	height:200px;
+}
+.fname{
+	font-size:200%
+}
+.icon{
+	float:left;
+}
+.fpanel1{
+	float:left;
+	width:220px;
+	height:120px:
+}
+.fpanel2{
+	float:left;
+	width:218px;
+	height:120px;
+}
+.fpanel3{
+	margin-left:590px;
+	width:218px;
+	height:120px;
+}
+.ftitle{
+	text-align:center;
+	border-bottom:1px #84ff84 solid;
+	display:block;
+	width:200px;
+}
+.ftwitter{
+	float:left;
+	margin:10px;
+	margin-top:0;
+	margin-left:20px;
+	width:60px;
+}
+.ftwitterno{
+	float:left;
+	margin:10px;
+	margin-top:0;
+	margin-left:20px;
+	width:60px;
+}
+.fyoutube{
+	margin:10px;
+	margin-left:85px;
+}
+.fyoutubeno{
+	margin:10px;
+	margin-left:85px;
+}
+
+

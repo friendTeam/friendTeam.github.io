@@ -1,0 +1,16 @@
+@charset UTF-8;
+article li{
+	font-size:18px;
+}
+article ul{
+	list-style-type:none;
+	margin-left:18px;
+}
+article li:nth-child(odd):before{
+	content:'♪';
+	margin-left:-18px;
+}
+article li:nth-child(even):before{
+	content:'♬';
+	margin-left:-18px;
+}
